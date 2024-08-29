@@ -19,7 +19,7 @@ module.exports = [
     },
   },
   {
-    test: /\.jsx?$/,
+    test: /\.(js|jsx)$/,
     use: {
       loader: "babel-loader",
       options: {
@@ -27,6 +27,11 @@ module.exports = [
         presets: ["@babel/preset-react"],
       },
     },
+  },
+  {
+    test: /\.module\.css$/,  // Manejar archivos con extensión .module.css
+    include: [path.resolve(__dirname, "app/src")],
+    use: ["style-loader", "css-loader", "postcss-loader"],
   },
   {
     // loads .css files
