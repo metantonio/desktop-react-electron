@@ -1,6 +1,6 @@
 {
-  "name": "codetegaelectron",
-  "productName": "codetegaelectron",
+  "name": "template",
+  "productName": "template",
   "version": "1.0.0",
   "description": "My Electron application description",
   "main": ".webpack/main",
@@ -69,8 +69,8 @@
   },
   "keywords": [],
   "author": {
-    "name": "techbret",
-    "email": "bret@techbret.com"
+    "name": "antonio",
+    "email": "antonio_martinez88@hotmail.com"
   },
   "license": "MIT",
   "dependencies": {
